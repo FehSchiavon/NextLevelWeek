@@ -5,7 +5,7 @@ function populationUFs() {
     fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
         .then(res => res.json())
         .then(states => {
-            
+
             for (state of states) {
                 ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
             }
@@ -43,3 +43,20 @@ function getCities(event) {
 document
     .querySelector("select[name=uf")
     .addEventListener("change", getCities)
+
+// Items de Coleta
+
+const itemsCollet = document.querySelectorAll('.items-grid li')
+
+for (item of itemsCollet) {
+    item.addEventListener('click', handleSelectedItem)
+}
+
+function handleSelectedItem(event) {
+    const itemLi = event.target
+    
+    // Adicionar o Tirar Classes
+    itemLi.classList.toggle('selected')
+
+    const itemId = event.target.dataset.id
+}
