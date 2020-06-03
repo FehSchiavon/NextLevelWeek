@@ -52,11 +52,37 @@ for (item of itemsCollet) {
     item.addEventListener('click', handleSelectedItem)
 }
 
+const colletedItems = document.querySelector('input[name=items]')
+
+let selectedItems = []
+
 function handleSelectedItem(event) {
     const itemLi = event.target
-    
+
     // Adicionar o Tirar Classes
     itemLi.classList.toggle('selected')
 
     const itemId = event.target.dataset.id
+
+
+    // Verificar itens selecionado 
+    // Se sim pegar itens selecionados
+    const alreadySelected = selectedItems.findIndex( item => {
+        const itemFound = item == itemId
+        return item == itemId
+    })
+
+    // Se ja selecionado, tirar da selecao
+    if (alreadySelected >= 0) {
+        const filterIdItems = selectedItems.filter( item => {
+            const itemIdDifferent = item != itemId
+            return itemIdDifferent
+        })
+        selectedItems = filterIdItems
+    } else {
+        // Se não estiver selecionado, adicionar a selecao
+        selectedItems.push(itemId)
+    }
+    // Atulizar o campo escondido com os itens selecionados
+    colletedItems.value = selectedItems
 }
