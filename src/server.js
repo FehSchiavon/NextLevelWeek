@@ -17,6 +17,10 @@ server.get('/create-point', (req, res) => {
     res.render("create-point.html")
 })
 
+server.get('/search', (req, res) => {
+    res.render("search-results.html")
+})
+
 server.listen(3000, function() {
     console.log('Server ON: Port:3000')
 })

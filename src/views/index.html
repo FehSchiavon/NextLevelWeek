@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ecoleta</title>
-        <link rel="stylesheet" href="/styles/main.css">
-        <link rel="stylesheet" href="/styles/home.css">
-        <link rel="stylesheet" href="/styles/modal.css">
-        <link rel="stylesheet" href="/styles/responsive.css">
-    </head>
-    <body>
+{% extends "layout.html" %}
 
-        <div id="page-home">
+
+        <title>Ecoleta</title>
+{% block styles %}
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+{% endblock styles %}
+
+
+        {# id="page-home"> #}
             <div class="content">
                 <header>
                     <img src="/assets/logo.svg" alt="Ecoleta">
@@ -28,32 +25,9 @@
                     </a>
                 </main>
             </div>
-        </div>
 
 
-        <div id="modal" class="hide">
-            <div class="content">
-                <div class="header">
-                    <h1>Pontos de Coleta</h1>
-                    <a href="#">Fechar</a>
-                </div>
-                <form action="/search-results.html">
-                    <label for="search">Cidade</label>
-                    <div class="search field">
-                        <input 
-                            type="text" 
-                            name="search"
-                            placeholder="Pesquise por cidade"
-                        >
-                        <button>
-                            <img src="/assets/search.svg" alt="Buscar">
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
+        {% include "partials/modal.html" %}
 
 
         <script src="/scripts/index.js"></script>
-    </body>
-</html>
