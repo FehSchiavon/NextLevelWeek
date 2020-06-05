@@ -24,6 +24,11 @@ server.get('/create-point', (req, res) => {
     res.render("create-point.html")
 })
 
+server.post('/savepoint', (req, res) => {
+    return res.send('ok')
+})
+
+
 server.get('/search', (req, res) => {
     db.all(`SELECT * FROM places`, function(err, rows) {
         if(err) {

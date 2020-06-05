@@ -62,7 +62,9 @@ function handleSelectedItem(event) {
     // Adicionar o Tirar Classes
     itemLi.classList.toggle('selected')
 
-    const itemId = event.target.dataset.id
+    const itemId = itemLi.dataset.id
+
+    console.log('ITEM ID: ', itemId)
 
 
     // Verificar itens selecionado 
@@ -83,6 +85,8 @@ function handleSelectedItem(event) {
         // Se não estiver selecionado, adicionar a selecao
         selectedItems.push(itemId)
     }
+
+    console.log('selectedItems: ', selectedItems)
     // Atulizar o campo escondido com os itens selecionados
     colletedItems.value = selectedItems
 }
