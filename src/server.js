@@ -1,6 +1,8 @@
 const express = require('express')
 const server = express()
 
+const db = require('./database/db')
+
 server.use(express.static('public'))
 
 const nunjucks = require('nunjucks')
@@ -14,11 +16,26 @@ server.get('/', (req, res) => {
 })
 
 server.get('/create-point', (req, res) => {
+
+    // Query String
+    console.log(req.query)
+    // req.query
+
     res.render("create-point.html")
 })
 
 server.get('/search', (req, res) => {
-    res.render("search-results.html")
+    db.all(`SELECT * FROM places`, function(err, rows) {
+        if(err) {
+            return console.log(err)
+        }
+
+        const total = rows.length
+        
+        // Mostrar a pagina HTML com dados do Banco e Dados
+        res.render("search-results.html", { places: rows, total: total })
+    })
+
 })
 
 server.listen(3000, function() {
