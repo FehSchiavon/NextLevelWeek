@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://raw.githubusercontent.com/FehSchiavon/hello-world/f390a533c342a52603181247c789a928feb841f0/images/logo.svg?token=ANPHJ5PTY5LKMQWGMQNHGD263QDHW" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://raw.githubusercontent.com/FehSchiavon/hello-world/f390a533c342a52603181247c789a928feb841f0/images/logo.svg?token=ANPHJ5LUBKBFA3COZIC5GY263QEKW" width="250px" />
 </h1>
 
 <h4 align="center"> 
@@ -85,8 +85,6 @@ $ cd NextLevelWeek
 $ npm install
 
 # running on port 3000
-```
-
 ```
 
 ## 🤔 How to contribute
