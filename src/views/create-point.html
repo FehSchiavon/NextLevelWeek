@@ -8,6 +8,7 @@
 
 {% block styles %}
     <link rel="stylesheet" href="/styles/create-point.css">
+    <link rel="stylesheet" href="/styles/modal.css">
 {% endblock styles %}
 
 {% block content %}
@@ -107,9 +108,13 @@
         <button type="submit">Cadastrar ponto de coleta</button>
     </form>
 
-    {% if saved %}
-        {% include "partials/point-created.html" %}
-    {% endif %}
+
+
+    {% block modal %}
+        {% if saved %}
+            {% include "partials/point-created.html" %}
+        {% endif %}
+    {% endblock modal %}
 
 
 {% endblock content %}
