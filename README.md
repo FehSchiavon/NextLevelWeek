@@ -3,10 +3,10 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
+	:construction: NextLevelWeek 1.0 🚀 Complete... :construction:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/NLW-1.0?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FehSchiavon/NextLevelWeek?style=for-the-badge">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-1.0">
 	
@@ -150,7 +150,7 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
