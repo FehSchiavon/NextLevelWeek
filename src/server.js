@@ -4,6 +4,8 @@ const server = express()
 const db = require('./database/db')
 
 server.use(express.static('public'))
+// Habilitar req.body
+server.use(express.urlencoded({ extended: true }))
 
 const nunjucks = require('nunjucks')
 nunjucks.configure('src/views', {
@@ -18,14 +20,51 @@ server.get('/', (req, res) => {
 server.get('/create-point', (req, res) => {
 
     // Query String
-    console.log(req.query)
-    // req.query
+    // console.log(req.query)
 
-    res.render("create-point.html")
+    return res.render("create-point.html")
 })
 
 server.post('/savepoint', (req, res) => {
-    return res.send('ok')
+
+    // Req.Body
+    // console.log(req.body)
+
+    // Inserir dados no banco de dados
+    const query = `
+        INSERT INTO places (
+            image,
+            name,
+            address,
+            address2,
+            state,
+            city,
+            items
+        ) VALUES (?,?,?,?,?,?,?);
+        `
+    const values = [
+        req.body.image,
+        req.body.name,
+        req.body.address,
+        req.body.address2,
+        req.body.state,
+        req.body.city,
+        req.body.items
+        
+    ]
+
+    function afterInserData(err) {
+        if(err) {
+            return console.log(err)
+        }
+
+        console.log('Cadastrado com sucesso')
+        console.log(this)
+        return res.render('create-point.html', { saved: true })
+    }
+
+    db.run(query, values, afterInserData)
+
 })
 
 
