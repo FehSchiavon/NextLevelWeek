@@ -86,5 +86,5 @@ Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com
 [Javascript]: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
 [CSS3]: https://expo.io/
 [HTML5]: https://reactjs.org
-[Nunjucks]: https://mozilla.github.io/nunjucks/
+[njk]: https://mozilla.github.io/nunjucks/
 [npm]: https://www.npmjs.com/
