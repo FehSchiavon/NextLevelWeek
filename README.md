@@ -7,24 +7,6 @@
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FehSchiavon/NextLevelWeek?style=for-the-badge">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-1.0">
-	
-  <a href="https://www.linkedin.com/in/danielobara/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
-  </a>
-
-  <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DanielObara/NLW-1.0">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/DanielObara/NLW-1.0/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/NLW-1.0?style=social">
-  </a>
-</p>
-<p align="center">
-<a href="https://insomnia.rest/run/?label=NLW%201.0%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-1.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 <p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
