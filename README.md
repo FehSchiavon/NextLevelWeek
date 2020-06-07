@@ -6,9 +6,6 @@
 	:construction: NextLevelWeek 1.0 🚀 Complete... :construction:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FehSchiavon/NextLevelWeek?style=for-the-badge">
-</p>
-<p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -38,9 +35,9 @@ That aims to connect people to companies that collect specific waste such as lig
 
 This project was developed with the following technologies:
 
-- [Node.js][nodejs]
-- [HTML][HTML]
-- [CSS][CSS]
+- [Node.js][Nodejs]
+- [HTML][HTML5]
+- [CSS][CSS3]
 - [Javascript][Javascript]
 - [Nunjucks][njk]
 
@@ -50,7 +47,7 @@ To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [npm][npm] installed on your computer.
 
 From your command line:
 
@@ -83,15 +80,11 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com/in/felipeschiavon/)
 
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
-[vs]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[Nodejs]: https://nodejs.org/
+[Javascript]: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+[CSS3]: https://expo.io/
+[HTML5]: https://reactjs.org
+[Nunjucks]: https://mozilla.github.io/nunjucks/
+[npm]: https://www.npmjs.com/
