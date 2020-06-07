@@ -56,9 +56,9 @@ That aims to connect people to companies that collect specific waste such as lig
 
 This project was developed with the following technologies:
 
-- [Node.js][nodejs]
-- [HTML][HTML]
-- [CSS][CSS]
+- [Node.js][Nodejs]
+- [HTML][HTML5]
+- [CSS][CSS3]
 - [Javascript][Javascript]
 - [Nunjucks][njk]
 
@@ -101,15 +101,11 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
 
 
-Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com/in/felipeschiavon/)
 
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
-[vs]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[Nodejs]: https://nodejs.org/
+[Javascript]: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+[CSS3]: https://expo.io/
+[HTML5]: https://reactjs.org
+[Nunjucks]: https://mozilla.github.io/nunjucks/
+[npm]: https://www.npmjs.com/
