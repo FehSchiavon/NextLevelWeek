@@ -1,31 +1,10 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://raw.githubusercontent.com/FehSchiavon/hello-world/f390a533c342a52603181247c789a928feb841f0/images/logo.svg?token=ANPHJ5LUBKBFA3COZIC5GY263QEKW" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="https.github/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center"> 
 	:construction: NextLevelWeek 1.0 🚀 Complete... :construction:
 </h4>
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FehSchiavon/NextLevelWeek?style=for-the-badge">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-1.0">
-	
-  <a href="https://www.linkedin.com/in/danielobara/">
-    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
-  </a>
-
-  <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DanielObara/NLW-1.0">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/DanielObara/NLW-1.0/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/NLW-1.0?style=social">
-  </a>
-</p>
-<p align="center">
-<a href="https://insomnia.rest/run/?label=NLW%201.0%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-1.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
 <p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -68,7 +47,7 @@ To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [npm][npm] installed on your computer.
 
 From your command line:
 
@@ -108,4 +87,8 @@ Made with ♥ by Felipe Schiavon :wave: [Get in touch!](https://www.linkedin.com
 [CSS3]: https://expo.io/
 [HTML5]: https://reactjs.org
 [Nunjucks]: https://mozilla.github.io/nunjucks/
+<<<<<<< HEAD
 [npm]: https://www.npmjs.com/
+=======
+[npm]: https://www.npmjs.com/
+>>>>>>> c2a6bee3299b536ea2347b6c43ae73e9b5c24a85
