@@ -64,6 +64,7 @@ $ cd NextLevelWeek
 $ npm install
 
 # running on port 3000
+$ localhost:3000
 ```
 
 ## 🤔 How to contribute
