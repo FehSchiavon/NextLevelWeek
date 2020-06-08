@@ -27,7 +27,7 @@ Ecoleta is a project developed based on international environment week.
 That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
 
 <h1 align="center">
-    <img alt="Example" title="Example" src="" width="500px" />
+    <img alt="Example" title="Example" src="https://user-images.githubusercontent.com/38081852/83580830-6f63e200-a513-11ea-9a27-0a109ec1e4d0.png" width="500px" />
 </h1>
 
 
