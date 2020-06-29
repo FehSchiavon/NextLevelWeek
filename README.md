@@ -63,8 +63,8 @@ $ cd NextLevelWeek
 # Install dependencies
 $ npm install
 
-# running on port 3000
-$ localhost:3000
+# running on port for 3000
+$ localhost:3000 | Port: 3000
 ```
 
 ## 🤔 How to contribute
